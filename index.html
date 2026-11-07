@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trestle</title>
+<meta name="description" content="A modular website builder that runs in your browser. Stack blocks, edit in place, export plain HTML.">
+<meta name="theme-color" content="#161B22">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FFC83D' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M2 6h20M6 6 3 20M6 6l4 14M18 6l-4 14M18 6l3 14'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;700&display=swap">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="stylesheet" href="src/editor.css">
+</head>
+<body>
+<div id="app">
+<header id="top"></header>
+<nav id="rail" aria-label="Editor tools"></nav>
+<aside id="panel" aria-label="Tools panel"></aside>
+<main id="stage"><div id="ruler"><span></span></div><div id="scroller"><div id="frame"><div id="host"></div></div></div></main>
+<aside id="insp" aria-label="Block settings"></aside>
+</div>
+<div id="preview" hidden><div id="pvbar"><b>Preview</b><span class="note" id="pvname"></span><span class="spacer"></span><div class="seg" id="pvseg"><button type="button" data-d="desktop" aria-label="Desktop"></button><button type="button" data-d="tablet" aria-label="Tablet"></button><button type="button" data-d="phone" aria-label="Phone"></button></div><button type="button" class="btn" id="pvclose">Back to editing</button></div><div id="pvscroll"><div id="pvframe"><div id="pvhost"></div></div></div></div>
+<div id="modals"></div><div id="ghost" hidden></div><div id="rt" hidden></div><div id="toast" role="status" hidden></div>
+<noscript><p style="padding:24px;font:16px system-ui">Trestle needs JavaScript turned on.</p></noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="src/site.js"></script>
+<script src="src/blocks.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

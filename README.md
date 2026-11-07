@@ -8,6 +8,7 @@ No accounts, no server and no build step. Your sites are saved in your own brows
 
 ## What it does
 
+- **Templates that set themselves up** — pick a café, trades, portfolio, classes or blank template, enter your business name and logo (plus optional phone, email and town), and every page is filled in for you. Trestle can also match the theme colour to your logo.
 - **21 blocks** — heroes, text, image + text, features, numbers, how it works, gallery, full-width image, video, testimonials, partners, team, menu / price list, pricing, call to action, questions, opening hours, contact form, map, divider, custom code, and a "Build your own" columns block.
 - **Edit in place** — click text on the page and type. Select words in paragraphs to make them bold, italic or a link.
 - **Drag and drop** — drag blocks from the library onto the page, reorder them on the canvas or in Layers, duplicate them, and save favourites to *My blocks*.

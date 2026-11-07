@@ -8,8 +8,10 @@ No accounts, no server and no build step. Your sites are saved in your own brows
 
 ## What it does
 
-- **Templates that set themselves up** — pick a café, trades, portfolio, classes or blank template, enter your business name and logo (plus optional phone, email and town), and every page is filled in for you. Trestle can also match the theme colour to your logo.
-- **21 blocks** — heroes, text, image + text, features, numbers, how it works, gallery, full-width image, video, testimonials, partners, team, menu / price list, pricing, call to action, questions, opening hours, contact form, map, divider, custom code, and a "Build your own" columns block.
+- **Templates that set themselves up** — pick a café, trades, portfolio, classes, learning hub or blank template, enter your business name and logo (plus optional phone, email and town), and every page is filled in for you. Trestle can also match the theme colour to your logo.
+- **27 blocks** — heroes (with star ratings), text, image + text, features, numbers, badges, progress bars, how it works, gallery, image cards, full-width image, video, testimonials, partners, team, profile, comments, share buttons, menu / price list, pricing, call to action, questions, opening hours, contact form, map, divider, custom code, and a "Build your own" columns block.
+- **Section styling** — background tones, slanted top or bottom edges, and a peeking image (such as a mascot) that pokes in from the side of any section.
+- **Footer columns** — link columns, a newsletter sign-up and social links.
 - **Edit in place** — click text on the page and type. Select words in paragraphs to make them bold, italic or a link.
 - **Drag and drop** — drag blocks from the library onto the page, reorder them on the canvas or in Layers, duplicate them, and save favourites to *My blocks*.
 - **Multiple pages** — each with its own web address and search engine title and description. The header and footer repeat on every page.
@@ -86,6 +88,7 @@ quote: {
 
 - Sites live in your browser's storage (IndexedDB). Clearing site data removes them, so download a backup from **Export** now and then.
 - Maps, videos and custom code show a stand-in while editing and work on the exported site.
+- Comment and newsletter boxes need a form service address (such as Formspree or Mailchimp), because a site made of plain files can't store submissions itself. Without one they're left off the exported site.
 - The sample businesses in the templates are made up.
 
 ## Licence
